@@ -1,0 +1,29 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63.17 34.67">
+    <defs>
+        <style>
+            .cls-1{
+                font-size:20.03px;
+                font-family:ErasITC-Demi, Eras Demi ITC;
+            }
+            .cls-1,.cls-2{
+                fill:#27aae1;
+            }
+            .cls-2,.cls-3,.cls-4{
+                stroke:#231f20;
+                stroke-miterlimit:10;
+                stroke-width:0.15px;
+            }
+            .cls-3{
+                fill:#f15a29;
+            }
+            .cls-4{
+                fill:#2bb673;
+            }
+        </style>
+    </defs>
+    <title>sinlab</title>
+    <text class="cls-1" transform="translate(0 32.69)">SinLab</text>
+    <rect class="cls-2" x="25.96" y="6.82" width="11.08" height="11.08"/>
+    <circle class="cls-3" cx="31.5" cy="5.02" r="3.69"/>
+    <polygon class="cls-4" points="37.62 18.05 25.38 17.99 31.59 7.39 37.62 18.05"/>
+</svg>

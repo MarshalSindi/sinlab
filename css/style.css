@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#logo{
+    width: auto;
+    height: 100%;
+    margin-left: 10px;
+    
+}
+
+.menu{
+    display: flex;
+
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: fantasy;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    color: #25aae1;
+}
+
+.menu a:hover{
+    color: #f15a29;
+}
+
+.menu li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+
+/* Main */
+
+.main{
+    width: 100%;
+    height: 500px;
+   
+}
+
+.sinlab{
+    height: 100%;
+    background-image: linear-gradient(-45deg,cadetblue 0%, lightcoral 50%,lightblue 75%,mediumorchid 100%);
+    background-size: 200% 200%;
+    animation: bganimation 10s ease-in-out infinite;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .sinlab>svg{
+    width: 25%;
+    
+}
+
+.sinlab h3{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+}
+
+
+/* SVG */
+
+.rect{
+    animation: move1 5s linear 0s infinite;
+}
+
+.circle{
+    animation: move2 5s linear 0s infinite;
+}
+
+.polygon{
+    animation: move3 5s linear 0s infinite;
+}
+
+
+
+/* Keyframes */
+
+@keyframes bganimation{
+    0%{
+        background-position: 0%;
+    }
+    50%{
+        background-position: 100%;
+    }
+    100%{
+        background-position: 0%;
+    }
+}
+
+
+@keyframes move1{
+    0%{
+        transform: translateX(0px)
+        translateY(0px);
+         
+    }
+    50%{
+        transform: translateX(10px)
+        translateY(0px);
+    }
+    100%{
+        transform: translateX(0px)
+        translateY(0px);
+    }
+}
+
+@keyframes move2{
+    0%{
+        transform: translateY(0px)
+        translateX(0px);
+    }
+    50%{
+        transform: translateY(10px)
+        translateX(0px);
+    }
+    100%{
+        transform: translateY(0px)
+        translateX(0px);
+    } 
+}
+
+@keyframes move3{
+    0%{
+        transform: translateX(0px)
+        translateY(0px);
+    }
+    50%{
+        transform: translateX(-10px)
+        translateY(0px);
+    }
+    100%{
+        transform: translateX(0px)
+        translateY(0px);
+    }
+}
